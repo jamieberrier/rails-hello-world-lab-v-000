@@ -33244,3 +33244,11 @@ Processing by HelloWorldsController#hello_world as HTML
 Completed 200 OK in 632ms (Views: 632.0ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/hello_world" for 23.229.103.118 at 2019-11-08 22:14:57 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HelloWorldController#hello_world as HTML
+  Rendering hello_world/hello_world.erb within layouts/application
+  Rendered hello_world/hello_world.erb within layouts/application (1.5ms)
+Completed 200 OK in 241ms (Views: 232.2ms | ActiveRecord: 0.0ms)
+
+
