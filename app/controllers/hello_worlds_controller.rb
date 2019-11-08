@@ -1,5 +1,5 @@
 class HelloWorldsController < ApplicationController
   def hello_world
-    render :plain => "Hello World"
+    render hello_world/hello_world
   end
 end
