@@ -33237,3 +33237,10 @@ app/controllers/hello_worlds_controller.rb:3:in `hello_world'
   Rendering /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
   Rendered /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
   Rendered /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (19.7ms)
+Started GET "/hello_world" for 23.229.103.118 at 2019-11-08 22:12:26 +0000
+Processing by HelloWorldsController#hello_world as HTML
+  Rendering hello_world/hello_world.erb within layouts/application
+  Rendered hello_world/hello_world.erb within layouts/application (0.3ms)
+Completed 200 OK in 632ms (Views: 632.0ms | ActiveRecord: 0.0ms)
+
+
