@@ -22338,3 +22338,19 @@ app/controllers/hello_worlds_controller.rb:3:in `hello_world'
 app/controllers/hello_worlds_controller.rb:3:in `hello_world'
 app/controllers/hello_worlds_controller.rb:3:in `hello_world'
 Started GET "/hello_world" for 23.229.103.118 at 2019-11-08 22:08:48 +0000
+Started GET "/" for 23.229.103.118 at 2019-11-08 22:10:05 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /usr/local/rvm/gems/ruby-2.6.1/gems/railties-5.0.7.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.6.1/gems/railties-5.0.7.1/lib/rails/templates/rails/welcome/index.html.erb (4.0ms)
+Completed 200 OK in 18ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/hello_world" for 23.229.103.118 at 2019-11-08 22:10:13 +0000
+Processing by HelloWorldsController#hello_world as HTML
+  Rendering html template
+  Rendered html template (0.1ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
